@@ -19,7 +19,46 @@ h2 {
     background-color: white;
     padding: 2rem;
 }
+/* Media Object */
+.contenedor-comentario {
+    display: flex;
+    align-items: flex-start;
+    
+}
+.contenedor-comentario .avatar {
+    margin-right: 1rem; 
+}
+.segundo-nivel {
+    background-color: #e1e1e1;
+    align-items: center;
+} 
 
+/** Footer **/
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.pagina h1, .pagina h2, .pagina p {
+    margin: 0;
+}
+.pagina > * {
+    padding: 1.3rem;
+}
+.pagina .encabezado {
+    background-color: red;
+}
+.pagina .contenido-principal {
+    background-color: white;
+    max-width:900px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.pagina .footer {
+    background-color: gray;
+    color: white;
+}
 
 
 
